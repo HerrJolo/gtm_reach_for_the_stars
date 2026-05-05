@@ -1,0 +1,4 @@
+config:
+  # Whether the example multiblock will register or not
+  registerExampleForgeHammerMulti: true
+

@@ -1,0 +1,313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lvmv"
+	group: "7790F3B83704637B"
+	id: "5D7F884707D72131"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["551D2A515BDBEFF4"]
+			id: "4DDF55DDDBA271BB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "48AE25FC9FEAA451"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "7BE4DEAFAB8C31CF"
+			tasks: [{
+				id: "1C3C516230DD9286"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "4FCD124F897D9AC3"
+			tasks: [{
+				id: "7033A85655E876FC"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "0F3DD53D59756BAF"
+			tasks: [{
+				id: "5A5A0287B49466FD"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "45724C66CBF7DD28"
+			tasks: [{
+				id: "0A07339B94329E65"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45724C66CBF7DD28"]
+			id: "7FF54814CC5D2FC1"
+			tasks: [{
+				id: "59583E96CC70B97E"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "471D1AA2C0FA95B5"
+			tasks: [{
+				id: "01E2D09B1CCE8FA9"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "6D56C970A55270BB"
+			tasks: [{
+				id: "5D8CB49C1CA9AA80"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F3DD53D59756BAF"]
+			id: "558E995D4AAD2AF0"
+			tasks: [{
+				id: "5E987A1D8D3E0F17"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F3DD53D59756BAF"]
+			id: "35738ACA9F3C83EB"
+			tasks: [{
+				id: "451A58DBD7C6FC87"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F3DD53D59756BAF"]
+			id: "1F59CD600D45695D"
+			tasks: [{
+				id: "5492919701A6D480"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"471D1AA2C0FA95B5"
+				"6D56C970A55270BB"
+				"0519816319F3F72E"
+			]
+			id: "6BB4750FA7A00E0A"
+			tasks: [{
+				id: "415ACDA226C51F7D"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6BB4750FA7A00E0A"
+				"7EEA45B07B7293B8"
+			]
+			id: "17B2032AD1BD9D38"
+			tasks: [{
+				id: "5AFE67ECB3D63C5F"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "7EEA45B07B7293B8"
+			tasks: [{
+				id: "589DEB9CF8ABA002"
+				item: "gtceu:lv_electronics_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["17B2032AD1BD9D38"]
+			id: "3FD2D221ABD8E14F"
+			shape: "gear"
+			tasks: [{
+				id: "03D180F2BC8452A3"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "4C4F42B788395ED3"
+			tasks: [{
+				id: "18AABDEE0A3F0964"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7FF54814CC5D2FC1"
+				"4C4F42B788395ED3"
+			]
+			id: "580E1AF3FBE870D0"
+			tasks: [{
+				id: "42128C8ADD280A17"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "6699DD6617FABF5C"
+			tasks: [{
+				id: "3C163BACDDEA250A"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "0519816319F3F72E"
+			tasks: [{
+				id: "6AFCA69BE1AA2EEC"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3FD2D221ABD8E14F"]
+			id: "37816DBCE054EE4C"
+			tasks: [{
+				id: "787EAAB1601070BD"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "5BC2E91377FB95F6"
+			tasks: [
+				{
+					id: "2F425AE4B0C5F0F1"
+					item: "gtceu:lv_steam_turbine"
+					type: "item"
+				}
+				{
+					id: "413905827F92B0C9"
+					item: "gtceu:lv_gas_turbine"
+					type: "item"
+				}
+				{
+					id: "1268D2B863FE1E2F"
+					item: "gtceu:lv_combustion"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F3DD53D59756BAF"]
+			id: "6947845CD250545B"
+			tasks: [{
+				id: "6410F23371EC7175"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "41F4298DEF5719ED"
+			tasks: [{
+				id: "1229EEB574E0E88E"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DDF55DDDBA271BB"]
+			id: "5A00C35DFDB41C17"
+			tasks: [{
+				id: "752B79D2FC5DFE2A"
+				item: "gtceu:lv_sifter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F59CD600D45695D"]
+			id: "26273F40F2884F7E"
+			shape: "gear"
+			tasks: [{
+				id: "0AF4C6FDCB1B4E35"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+	]
+	title: "LV-MV"
+}

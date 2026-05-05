@@ -1,0 +1,14 @@
+
+[Durability]
+	#When this is true, enable the durability for The Flask of Endless Water.
+	"Enable Durability" = true
+
+[Cooldown]
+	#When this is true, enable the cooldown for Flask of Endless Water.
+	"Enable Cooldown" = true
+	#The default cooldown for The Flask of Endless Water in ticks.
+	"Default Cooldown" = 200.0
+	"Cooldown with Refill 1" = 140.0
+	"Cooldown with Refill 2" = 80.0
+	"Cooldown with Refill 3" = 20.0
+

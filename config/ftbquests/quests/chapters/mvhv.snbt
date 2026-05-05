@@ -1,0 +1,452 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mvhv"
+	group: "7790F3B83704637B"
+	id: "619D9F706FD3848C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3FD2D221ABD8E14F"
+				"0AF4C6FDCB1B4E35"
+			]
+			id: "7C50554FDA732E6E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "21D6B246D90642C1"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C50554FDA732E6E"]
+			id: "05EB62B6468F28EA"
+			tasks: [
+				{
+					id: "2E16301B347564C2"
+					item: "gtceu:mv_steam_turbine"
+					type: "item"
+				}
+				{
+					id: "2F8FF2DFA1E88946"
+					item: "gtceu:mv_gas_turbine"
+					type: "item"
+				}
+				{
+					id: "61C83093061EC638"
+					item: "gtceu:mv_combustion"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C50554FDA732E6E"]
+			id: "37AB5B4F295F643C"
+			tasks: [{
+				id: "0D2E3A234F806BF1"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37AB5B4F295F643C"]
+			id: "5A0753EF85782159"
+			tasks: [{
+				id: "7715525BF411B5A0"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C50554FDA732E6E"]
+			id: "7A57A65ECC0F0AD7"
+			tasks: [{
+				id: "6F52F3A85D8AC779"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C50554FDA732E6E"]
+			id: "70A5791638775051"
+			tasks: [{
+				id: "3676956DB60605C1"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C50554FDA732E6E"]
+			id: "3B4EAB1F9E5C405D"
+			tasks: [{
+				id: "7DC7854E0ACD1DE0"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B4EAB1F9E5C405D"]
+			id: "1D20EBC456ABB031"
+			tasks: [{
+				id: "4A72A21AA4F007AD"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B4EAB1F9E5C405D"]
+			id: "5F65E9FAE979FD7D"
+			tasks: [{
+				id: "2C556B1F11C3A47E"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D20EBC456ABB031"]
+			id: "279986499BE0F660"
+			tasks: [{
+				id: "0C968824A7795DCE"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F65E9FAE979FD7D"]
+			id: "391EA641A7880F3C"
+			tasks: [{
+				id: "6A59D084AB59FD06"
+				item: "gtceu:ram_chip"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C968824A7795DCE"]
+			id: "6809D300ED32EA49"
+			tasks: [{
+				id: "6364FC1B4DBED5EB"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6809D300ED32EA49"
+				"0C968824A7795DCE"
+				"5783CBDD15D18DBB"
+			]
+			id: "7A7CFE91FAE4EAF5"
+			tasks: [{
+				id: "635BF5BC7F476C46"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7A7CFE91FAE4EAF5"
+				"0C968824A7795DCE"
+				"6A59D084AB59FD06"
+				"5542A5AE36164B63"
+				"5783CBDD15D18DBB"
+			]
+			id: "32043B1F40FFC6D4"
+			shape: "gear"
+			tasks: [{
+				id: "04F93EFB9D5CE87F"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B4EAB1F9E5C405D"]
+			id: "6027A80A6DA9DC9C"
+			tasks: [{
+				id: "0BF260FA85D14527"
+				item: "kubejs:transistor_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6027A80A6DA9DC9C"]
+			id: "29D0A23BDF68D101"
+			tasks: [{
+				id: "4F2835DE734E33E4"
+				item: "kubejs:transistor_chip"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F2835DE734E33E4"
+				"7A5AA829D9EB972B"
+			]
+			id: "536ACEE2DA9BF76C"
+			tasks: [{
+				id: "5542A5AE36164B63"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C50554FDA732E6E"]
+			id: "7A5AA829D9EB972B"
+			tasks: [{
+				id: "084CFF85EE1BF237"
+				item: "gtceu:mv_electronics_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "1AE3831F9DEA3B75"
+			tasks: [{
+				id: "75CFE01D60CC5484"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "67D9F32D0CD1ABBF"
+			tasks: [{
+				id: "2517B8925829CF27"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37AB5B4F295F643C"]
+			id: "3A292268B43ED07D"
+			tasks: [{
+				id: "38988197B6EE2116"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3A292268B43ED07D"
+				"67D9F32D0CD1ABBF"
+			]
+			id: "5783CBDD15D18DBB"
+			tasks: [{
+				id: "7CA26B5CCCB43DAB"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "5BD891EBA29B997B"
+			tasks: [{
+				id: "7838FF4E0AEB5F11"
+				item: "gtceu:biomass_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "5578A43032418F9B"
+			tasks: [{
+				id: "05B6B56DF3557362"
+				item: "createdieselgenerators:ethanol_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7A57A65ECC0F0AD7"
+				"6A2C73C86818ECEE"
+				"5ED61BCAB05D2A3D"
+			]
+			id: "6B734264C8695785"
+			tasks: [{
+				id: "305D41AA8CFBF207"
+				item: "gtceu:stainless_steel_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C50554FDA732E6E"]
+			id: "5F672785A4264827"
+			tasks: [{
+				id: "721B1DE9DF5ED622"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F672785A4264827"]
+			id: "6A2C73C86818ECEE"
+			tasks: [{
+				id: "6243097C8174AA50"
+				item: "gtceu:manganese_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F672785A4264827"]
+			id: "5ED61BCAB05D2A3D"
+			tasks: [{
+				id: "5E5FBFFA9249A267"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6B734264C8695785"
+				"5A0753EF85782159"
+			]
+			id: "7BCF8399D4014A62"
+			shape: "gear"
+			tasks: [{
+				id: "7B9E3C6C882FF601"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5578A43032418F9B"
+				"1AE3831F9DEA3B75"
+				"5BD891EBA29B997B"
+			]
+			dependency_requirement: "one_completed"
+			id: "0082237FCD3B6262"
+			tasks: [{
+				id: "2F56F75C6F66AEF9"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0082237FCD3B6262"]
+			dependency_requirement: "all_started"
+			id: "2D123FBB5BD1CF6B"
+			tasks: [{
+				id: "5EC1A6F92FA6CEA8"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0082237FCD3B6262"]
+			id: "40A1FC5AC85A7AD5"
+			tasks: [{
+				id: "48A7D856FC3252FA"
+				item: "gtceu:polyvinyl_chloride_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D123FBB5BD1CF6B"]
+			id: "67148DF0CC648259"
+			tasks: [{
+				id: "616ABFE2863D1A30"
+				item: "gtceu:lv_super_tank"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2D123FBB5BD1CF6B"]
+			id: "5060EBF9BEB79D6D"
+			tasks: [{
+				id: "0E81E2C0A57BCBCD"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["40A1FC5AC85A7AD5"]
+			id: "0C4139FFE343062D"
+			tasks: [{
+				id: "4694737EA8C4CBA8"
+				item: "gtceu:polyvinyl_chloride_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C50554FDA732E6E"]
+			id: "7359CD4641CDFD4C"
+			tasks: [{
+				id: "2075C42E0DAA061C"
+				item: "gtceu:mv_extruder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	title: "MV-HV"
+}

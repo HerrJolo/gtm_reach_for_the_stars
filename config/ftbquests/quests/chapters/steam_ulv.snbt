@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_ulv"
+	group: "7790F3B83704637B"
+	id: "38DC425642E01E53"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C63E7BD1D936B9C"
+			tasks: [{
+				id: "3B16B7DA060BA923"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C63E7BD1D936B9C"]
+			id: "7EF1B373E3550067"
+			tasks: [{
+				id: "247CAD0252533360"
+				item: "gtceu:concrete_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C63E7BD1D936B9C"]
+			id: "6BF73B57570EFD44"
+			tasks: [{
+				id: "4884C1A9367611AE"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EF1B373E3550067"]
+			id: "0C7057AD98975222"
+			tasks: [{
+				id: "49535CF6361013B3"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0C7057AD98975222"
+				"4F4ACFC03A0A06CA"
+			]
+			id: "5F9F3777AAE0B778"
+			tasks: [{
+				id: "77B80F734531726A"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F9F3777AAE0B778"]
+			id: "04E2CF246C5975F3"
+			tasks: [{
+				id: "2113D57B60654953"
+				item: "gtceu:vacuum_chamber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04E2CF246C5975F3"]
+			id: "222EEA009607A350"
+			tasks: [{
+				id: "2D5AD68D38709F5E"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6BF73B57570EFD44"
+				"3D6F2E986E84A9CA"
+			]
+			id: "4F4ACFC03A0A06CA"
+			tasks: [{
+				id: "5AFE8FB046320686"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["222EEA009607A350"]
+			id: "79DBFAF2B9428B2C"
+			tasks: [{
+				id: "1E051A5E94E29BFF"
+				item: "gtceu:primitive_assembler"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79DBFAF2B9428B2C"]
+			id: "551D2A515BDBEFF4"
+			tasks: [{
+				id: "17D65DD2CCA5F4CC"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "4306EDCB127E1CAB"
+			rewards: [{
+				id: "39501CC186E69A9A"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.lv"
+					tag: {
+						Charge: 100000L
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4028CB892B86F212"
+				title: "FuckOreIndicators"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D19FE422763CC26"
+				"73EC0DB3DD53569D"
+			]
+			id: "3D6F2E986E84A9CA"
+			tasks: [{
+				id: "7BCAF3C8B650BFCD"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "1D19FE422763CC26"
+			tasks: [{
+				id: "24601580C82D29B9"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "73EC0DB3DD53569D"
+			tasks: [{
+				id: "2F4EF4C1490597F6"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F9F3777AAE0B778"]
+			id: "2EC81CC1616DB6F6"
+			tasks: [{
+				id: "3321F5BEB7B59832"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"551D2A515BDBEFF4"
+				"2EC81CC1616DB6F6"
+			]
+			id: "5BD36F0C394628FB"
+			tasks: [{
+				id: "3861E16EE56CCE46"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F9F3777AAE0B778"]
+			id: "65725D39D34813D6"
+			tasks: [{
+				id: "21739E85CB4ED662"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "28780A7A42D259B1"
+			rewards: [
+				{
+					id: "64B8969F9F9D1911"
+					item: "jecalculation:item_calculator_math"
+					type: "item"
+				}
+				{
+					id: "3820159826613318"
+					item: "jecalculation:item_calculator_craft"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FD31048425FC4FF"
+				title: "Math is Hard "
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["222EEA009607A350"]
+			id: "77EDE47550FC3BC9"
+			tasks: [{
+				id: "7F7EFCF6C5603308"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["551D2A515BDBEFF4"]
+			id: "715DBBE68E60C87A"
+			tasks: [{
+				id: "333A744F8FE809C5"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "4F79446B0A27F544"
+			rewards: [{
+				id: "6915A7ED578DF825"
+				item: "measurements:tape_measure"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C4E6FB8DA65F223"
+				title: "Counting too"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: "Steam Ulv"
+}

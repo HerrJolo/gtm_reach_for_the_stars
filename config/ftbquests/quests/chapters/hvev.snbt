@@ -1,0 +1,435 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hvev"
+	group: "7790F3B83704637B"
+	id: "2A1FA0ACDE0C4BC1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["32043B1F40FFC6D4"]
+			id: "111F0711B004E7FA"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "29F570903978102E"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["111F0711B004E7FA"]
+			id: "51719F61557B2D3C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "377C62C00C0E2D54"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "40133503E83E1E36"
+			tasks: [{
+				id: "745C192AA4273FA6"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "217EFB1F10AA1C14"
+			tasks: [{
+				id: "33D0D6D56C006424"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "4C26E3E8B464B834"
+			tasks: [{
+				id: "50AE6567F1AF1D2B"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			id: "0FE4E857EF5143F5"
+			tasks: [{
+				id: "22CBAC1AD45BEDDE"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1479BBF1643FA052"]
+			id: "7A3D993AC65A0620"
+			tasks: [{
+				id: "0D31A393885A9164"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"51719F61557B2D3C"
+				"07F520E29C9DE5C3"
+			]
+			id: "4E08013266E4F42B"
+			tasks: [{
+				id: "67F94EBCD2209ADB"
+				item: "gtceu:lpic_chip"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["111F0711B004E7FA"]
+			id: "07F520E29C9DE5C3"
+			tasks: [{
+				id: "723E96695B0AD6F3"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["111F0711B004E7FA"]
+			id: "1DECA0ECC53B2196"
+			tasks: [{
+				id: "2F30A6E13E78B0E9"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1DECA0ECC53B2196"]
+			id: "0143F8DB3DE84D8F"
+			tasks: [{
+				id: "733B445716C30311"
+				item: "gtceu:polytetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0143F8DB3DE84D8F"]
+			id: "2EEC3B3A0125B92B"
+			tasks: [{
+				id: "4C1426AAFE809E22"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"301A39B3975D88BC"
+				"4E08013266E4F42B"
+				"1511AC22E0E73F7C"
+			]
+			id: "1D3EB96A1FF279ED"
+			tasks: [{
+				id: "781DC6BB8680A63F"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["111F0711B004E7FA"]
+			id: "301A39B3975D88BC"
+			tasks: [{
+				id: "13A28DB8EF8F366A"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "1511AC22E0E73F7C"
+			tasks: [{
+				id: "632B770AE39CDDF8"
+				item: "gtceu:black_steel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["111F0711B004E7FA"]
+			id: "592BBFD9C0DC9728"
+			tasks: [{
+				id: "12CC9CA59E3820F4"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["592BBFD9C0DC9728"]
+			id: "1479BBF1643FA052"
+			tasks: [{
+				id: "714BC11646117C9D"
+				item: "gtceu:orange_glass_lens"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "7DEF2A959CC6C201"
+			tasks: [{
+				id: "6776D173F36923F0"
+				item: "gtceu:polymethylmethacrylat_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			id: "1636226C96F63B50"
+			tasks: [{
+				id: "7AFBD266EAB0F29B"
+				item: "gtceu:methyl_methacrylate_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			id: "13E2E3F6AC99061C"
+			tasks: [{
+				id: "1FA3D300C3B25E7C"
+				item: "gtceu:methyl_propionate_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			id: "2CAC86E28D09DDE4"
+			tasks: [{
+				id: "04FE5F4624434CEA"
+				item: "gtceu:formaldehyde_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			id: "3119CBAF6C264431"
+			tasks: [{
+				id: "755ED73C609211E8"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			id: "4F9A6BDEAFAE054A"
+			tasks: [{
+				id: "430A4C98D11F294D"
+				item: "gtceu:methanol_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			id: "47697090F1190526"
+			tasks: [{
+				id: "57336D47E1B44792"
+				item: "gtceu:carbon_monoxide_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			id: "2AED8BCBD46832AA"
+			tasks: [{
+				id: "543A274009CF8887"
+				item: "gtceu:dibenzoylperoxid_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			id: "19D1B83530D603F8"
+			tasks: [{
+				id: "06A329152B2FF1E3"
+				item: "gtceu:benzoylchlorid_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "6506EC5469F3E0E5"
+			tasks: [{
+				id: "1C5EEA41DD8B982D"
+				item: "gtceu:hydrogen_peroxide_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "4719E79C76F3CC2C"
+			tasks: [{
+				id: "513B4DC2263405AF"
+				item: "gtceu:benzoic_acid_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			id: "23E76232305FA0A6"
+			tasks: [{
+				id: "0190EC79D6DC0EBA"
+				item: "gtceu:phosphortrichlorid_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "04CA8515F34AB489"
+			tasks: [{
+				id: "7F1EC316D5708240"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "5CDEADDA2E45AB8B"
+			tasks: [{
+				id: "203E992118B73246"
+				item: "gtceu:toluene_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "5FD98AD3C641B391"
+			tasks: [{
+				id: "1CC0A7ABC9D5F08F"
+				item: "gtceu:propylene_glycol_methyl_ether_acetate_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			id: "66235A15F37919DF"
+			tasks: [{
+				id: "0323D0F618063F73"
+				item: "gtceu:propylenoxid_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			id: "4B5A65B1EF39F041"
+			tasks: [{
+				id: "6BF5411ABACAE2F8"
+				item: "gtceu:perpropionic_acid_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			id: "478BEFB494C16449"
+			tasks: [{
+				id: "6F1927BB0B76C2E6"
+				item: "gtceu:propionic_acid_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			id: "04C220BE8B01E9FD"
+			tasks: [{
+				id: "5D24ABE2901C18CA"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			id: "39D27DBA065A4FD6"
+			tasks: [{
+				id: "5B24BEAE77F228B3"
+				item: "gtceu:carbon_monoxide_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			id: "688C7459299667D2"
+			tasks: [{
+				id: "49D2C86932979164"
+				item: "gtceu:ethane_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			id: "06C95DA86FBE197C"
+			tasks: [{
+				id: "03C0F5A994A65262"
+				item: "gtceu:hydrogen_peroxide_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			id: "1B3272B90ED6305B"
+			tasks: [{
+				id: "42B6537521E4FABD"
+				item: "gtceu:propene_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+	]
+	title: "HV-EV"
+}

@@ -1,0 +1,363 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiblocks"
+	group: ""
+	id: "5082FDF8445D6CBA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "23DE3AD1B68C2A21"
+			tasks: [{
+				id: "5617015C2DB6C0CB"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23DE3AD1B68C2A21"]
+			id: "0C879C6B3DB74078"
+			tasks: [{
+				id: "10D235B72762D92E"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "2248F4F4C5681FD6"
+			tasks: [{
+				id: "61E2ABBD33BB2B60"
+				item: "gtceu:steam_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "528F2BF60B49BB8B"
+			tasks: [{
+				id: "578E12532D9C15AB"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "20F73838AFEACB57"
+			tasks: [{
+				id: "6C1098CC966A25EE"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "3FDFB1ACF5E7D60C"
+			tasks: [{
+				id: "6F65901A9BEEAD83"
+				item: "gtceu:primitive_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "1F65C3C196009E56"
+			tasks: [{
+				id: "406F3A058F02BEBE"
+				item: "gtceu:vacuum_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "196D41A5FC3C3FFC"
+			tasks: [{
+				id: "164EDF759CCA7601"
+				item: "gtceu:concret_mixer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "3F76AEC338E53422"
+			tasks: [{
+				id: "429E6ED428214B94"
+				item: "gtceu:steam_forge_hammer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "3CFFA845D5B7FD74"
+			tasks: [{
+				id: "3E4B8EBE8D7DB9AB"
+				item: "gtceu:steam_ore_washer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "13E5877555AE0ACC"
+			tasks: [{
+				id: "6309AFC34D3BB6C6"
+				item: "steamadditions:steam_separator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2248F4F4C5681FD6"]
+			id: "48B048BDA7080FF2"
+			tasks: [{
+				id: "4C01E4E8A545AF4C"
+				item: "steamadditions:steam_foundry"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23DE3AD1B68C2A21"]
+			id: "5ADAF7794CB2A416"
+			tasks: [{
+				id: "64EE1713960265F6"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5ADAF7794CB2A416"]
+			id: "301502536A5BADF0"
+			tasks: [{
+				id: "6F1F59FEDBA0409B"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5ADAF7794CB2A416"]
+			id: "51363936AFF33BFB"
+			tasks: [{
+				id: "5E91E6C07B6EA200"
+				item: "gtceu:greenhouse"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5ADAF7794CB2A416"]
+			id: "3D450C558E409E8C"
+			tasks: [{
+				id: "26BEEF2C1550C36D"
+				item: "gtceu:coil_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["23DE3AD1B68C2A21"]
+			id: "05DBF0FECC1202C1"
+			tasks: [{
+				id: "032DC37A1C8C137D"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5ADAF7794CB2A416"]
+			id: "6729A866359F2BAE"
+			tasks: [{
+				id: "25C0D1DAF4E2D1CA"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5ADAF7794CB2A416"]
+			id: "0AF82A1741DBC258"
+			tasks: [{
+				id: "50CE75320AD3C327"
+				item: "gtceu:area_aqumulator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5ADAF7794CB2A416"]
+			id: "5B3F5702B366F7F9"
+			tasks: [{
+				id: "32EC2E4C73B2AC4A"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "1552D01265592C51"
+			tasks: [{
+				id: "7E5C668BF0FA851C"
+				item: "gtceu:precision_assembler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "288DB73EF424E92E"
+			tasks: [{
+				id: "2726D5FC8FB16B44"
+				item: "gtceu:alien_tech_assemblyline"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "72139408A49BAB7C"
+			tasks: [{
+				id: "1173BF8388954E2A"
+				item: "gtceu:mixatron"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "1DB5F9BEB0B34E6E"
+			tasks: [{
+				id: "2B8C2FC9A16325BF"
+				item: "gtceu:emassemblyline"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "5C3501C2F9B1D341"
+			tasks: [{
+				id: "616EE2AA60BB9F3C"
+				item: "gtceu:extended_centrifuge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "04718041C462CE8E"
+			tasks: [{
+				id: "1176AA4E6F9AA9D4"
+				item: "gtceu:extended_extractor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "072A5115A9773657"
+			tasks: [{
+				id: "7F9C46DFF7405A33"
+				item: "gtceu:wet_ore_processor_4000"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "4284550E9437DE78"
+			tasks: [{
+				id: "639F99BDDFA20CE0"
+				item: "gtceu:extended_thermal_centrefuge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5ADAF7794CB2A416"]
+			id: "6A0C2959CC3E6AC6"
+			tasks: [{
+				id: "49C577D15F58F576"
+				item: "gtceu:steel_large_boiler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "25DAB00085835118"
+			tasks: [{
+				id: "05B6B6444A961181"
+				item: "gtceu:extended_electrolyzer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5ADAF7794CB2A416"]
+			id: "6A49D4C2B9D36FA7"
+			tasks: [{
+				id: "52D69FBECE6852E7"
+				item: "gtceu:multi_smelter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B3F5702B366F7F9"]
+			id: "7409637A37937281"
+			tasks: [{
+				id: "3130995190BF9D17"
+				item: "gtceu:extendedextruder"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+	]
+	title: "Multiblocks"
+}
