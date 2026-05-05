@@ -1,0 +1,300 @@
+ServerEvents.recipes(event => {
+
+//CircuiteLV
+event.recipes.gtceu.primitiveassembler('Circuite1/2')
+  .itemInputs("3x gtceu:red_alloy_single_cable")
+  .itemInputs('2x gtceu:vacuum_tube')
+  .itemInputs('gtceu:resin_printed_circuit_board')
+  .itemInputs('2x gtceu:resistor')
+  .itemInputs('#forge:plates/steel')
+  .inputFluids(Fluid.of("gtceu:glowstone", 144))
+  .itemOutputs('gtceu:basic_electronic_circuit')
+  .duration(200)
+  .EUt(7)
+event.recipes.gtceu.primitiveassembler('Circuite')
+  .itemInputs("3x gtceu:red_alloy_single_cable")
+  .itemInputs('2x gtceu:vacuum_tube')
+  .itemInputs('gtceu:resin_printed_circuit_board')
+  .itemInputs('2x gtceu:resistor')
+  .itemInputs('#forge:plates/steel')
+  .inputFluids(Fluid.of("gtceu:tin", 144))
+  .itemOutputs('gtceu:basic_electronic_circuit')
+  .duration(200)
+  .EUt(7)
+event.remove({id: "gtceu:shaped/electronic_circuit_lv"})
+
+//CircuiteMV
+event.recipes.gtceu.primitiveassembler('Circuite2')
+  .itemInputs('2x gtceu:copper_single_wire')
+  .itemInputs('3x gtceu:basic_electronic_circuit')
+  .itemInputs('gtceu:phenolic_printed_circuit_board')
+  .itemInputs('2x gtceu:diode')
+  .itemInputs('#forge:plates/steel')
+  .inputFluids(Fluid.of("gtceu:tin", 144))
+  .itemOutputs('gtceu:good_electronic_circuit')
+  .duration(200)
+  .EUt(16)
+
+event.remove({id: "gtceu:shaped/electronic_circuit_mv"})
+
+//PrecisionMechanism
+event.recipes.gtceu.primitiveassembler("precisonmechanism")
+ .itemInputs("create:golden_sheet")
+ .itemInputs("2x gtceu:brass_screw")
+ .itemInputs("3x create:cogwheel")
+ .itemInputs("3x create:large_cogwheel")
+ .itemInputs("2x gtceu:wrought_iron_rod")
+ .itemOutputs("create:precision_mechanism")
+ .EUt(7)
+ .duration(400)
+
+event.remove({output:"create:precision_mechanism"})
+
+//HeatEngine
+event.recipes.gtceu.primitiveassembler("heatengine")
+ .itemInputs("gtceu:wrought_iron_plate")
+ .itemInputs("4x gtceu:wrought_iron_screw")
+ .itemInputs("8x create:shaft")
+ .itemInputs("2x gtceu:small_steel_gear")
+ .itemInputs("2x gtceu:steel_gear")
+ .itemInputs("createdieselgenerators:diesel_engine")
+ .itemOutputs("create_sa:heat_engine")
+ .EUt(7)
+ .duration(400)
+
+event.remove({output:"create_sa:heat_engine"})
+
+//HydraulicEngine
+event.recipes.gtceu.primitiveassembler("hydraulicengine")
+ .itemInputs('2x #forge:plates/copper')
+ .itemInputs("2x gtceu:copper_rotor")
+ .itemInputs('4x gtceu:small_iron_gear')
+ .itemInputs("2x gtceu:wrought_iron_rod")
+ .itemInputs('2x create:fluid_tank')
+ .itemOutputs("create_sa:hydraulic_engine")
+ .EUt(7)
+ .duration(400)
+
+event.remove({output:"create_sa:hydraulic_engine"})
+
+//SteamEninge
+event.recipes.gtceu.primitiveassembler("steamengine")
+ .itemInputs("4x thermal:bronze_plate")
+ .itemInputs("4x gtceu:steel_screw")
+ .itemInputs("2x gtceu:bronze_normal_fluid_pipe")
+ .itemInputs("4x gtceu:steel_ring")
+ .itemInputs("2x create:fluid_tank")
+ .itemInputs("3x gtceu:long_steel_rod")
+ .itemOutputs("create_sa:steam_engine")
+ .inputFluids("minecraft:lava 1000")
+ .inputFluids("minecraft:water 1000")
+ .EUt(7)
+ .duration(400)
+
+event.remove({output:"create_sa:steam_engine"})
+
+//CopperExoskeletonChestplate
+event.recipes.gtceu.primitiveassembler("copperexoskeleton")
+ .itemInputs("create_sa:hydraulic_engine")
+ .itemInputs("create_sa:copper_chestplate")
+ .itemInputs("2x create:fluid_tank")
+ .itemInputs("8x gtceu:long_steel_rod")
+ .itemInputs("8x gtceu:double_copper_plate")
+ .itemInputs("6x thermal:copper_gear")
+ .itemOutputs("create_sa:copper_exoskeleton_chestplate")
+ .inputFluids("minecraft:water 4000")
+ .inputFluids("gtceu:tin 576")
+ .EUt(7)
+ .duration(600)
+
+event.remove({output:"create_sa:copper_exoskeleton_chestplate"})
+
+//CopperJetpackChestplate
+event.recipes.gtceu.primitiveassembler("copperjetpack")
+ .itemInputs("create_sa:hydraulic_engine")
+ .itemInputs("create_sa:copper_chestplate")
+ .itemInputs("2x create:fluid_tank")
+ .itemInputs("2x create:encased_fan")
+ .itemInputs("6x gtceu:double_copper_plate")
+ .itemInputs("4x gtceu:steel_rotor")
+ .itemOutputs("create_sa:copper_jetpack_chestplate")
+ .inputFluids("minecraft:water 4000")
+ .inputFluids("gtceu:tin 576")
+ .EUt(7)
+ .duration(600)
+
+event.remove({output:"create_sa:copper_jetpack_chestplate"})
+
+//AndesiteExoskeletonChestplate
+event.recipes.gtceu.primitiveassembler("andesiteexoskeletonchestplate")
+ .itemInputs("create_sa:heat_engine")
+ .itemInputs("minecraft:iron_chestplate")
+ .itemInputs("create:blaze_burner")
+ .itemInputs("8x gtceu:long_steel_rod")
+ .itemInputs("8x gtceu:double_wrought_iron_plate")
+ .itemInputs("6x gtceu:wrought_iron_gear")
+ .itemOutputs("create_sa:andesite_exoskeleton_chestplate")
+ .EUt(7)
+ .duration(600)
+
+event.remove({output:"create_sa:andesite_exoskeleton_chestplate"})
+
+//AndesiteJetpackChestplate
+event.recipes.gtceu.primitiveassembler("andesitejetpackchestplate")
+ .itemInputs("create_sa:heat_engine")
+ .itemInputs("minecraft:iron_chestplate")
+ .itemInputs("create:blaze_burner")
+ .itemInputs("2x create:encased_fan")
+ .itemInputs("6x gtceu:double_wrought_iron_plate")
+ .itemInputs("2x gtceu:steel_rotor")
+ .itemOutputs("create_sa:andesite_jetpack_chestplate")
+ .EUt(7)
+ .duration(600)
+
+event.remove({output:"create_sa:andesite_jetpack_chestplate"})
+
+//BrassExoskeletonChestplate
+event.recipes.gtceu.primitiveassembler("brassexoskeletonchestplate")
+ .itemInputs("create_sa:steam_engine")
+ .itemInputs("create_sa:brass_chestplate")
+ .itemInputs("2x create:flywheel")
+ .itemInputs("8x gtceu:long_aluminium_rod")
+ .itemInputs("8x gtceu:double_brass_plate")
+ .itemInputs("2x #gtceu:circuits/lv")
+ .itemOutputs("create_sa:brass_exoskeleton_chestplate")
+ .inputFluids("gtceu:soldering_alloy 288")
+ .inputFluids("gtceu:potin 576")
+ .EUt(16)
+ .duration(600)
+
+event.remove({output:"create_sa:brass_exoskeleton_chestplate"})
+
+//BrassJetpackChestplate
+event.recipes.gtceu.primitiveassembler("brassjetpackchestplate")
+ .itemInputs("create_sa:steam_engine")
+ .itemInputs("create_sa:brass_chestplate")
+ .itemInputs("4x create:encased_fan")
+ .itemInputs("16x gtceu:aluminium_screw")
+ .itemInputs("6x gtceu:double_brass_plate")
+ .itemInputs("2x #gtceu:circuits/lv")
+ .itemOutputs("create_sa:brass_jetpack_chestplate")
+ .inputFluids("gtceu:soldering_alloy 288")
+ .inputFluids("gtceu:potin 576")
+ .EUt(16)
+ .duration(600)
+
+event.remove({output:"create_sa:brass_jetpack_chestplate"})
+
+//FillingTank
+event.recipes.gtceu.primitiveassembler("fillingtank")
+ .itemInputs("2x create:fluid_tank")
+ .itemInputs("4x gtceu:long_copper_rod")
+ .itemInputs("8x gtceu:copper_screw")
+ .itemOutputs("create_sa:large_filling_tank")
+ .EUt(7)
+ .duration(600)
+
+event.remove({output:"create_sa:small_filling_tank"})
+event.remove({output:"create_sa:medium_filling_tank"})
+event.remove({output:"create_sa:large_filling_tank"})
+
+//FuellingTank
+event.recipes.gtceu.primitiveassembler("fuellingtank")
+ .itemInputs("2x create:fluid_tank")
+ .itemInputs("4x gtceu:long_wrought_iron_rod")
+ .itemInputs("8x gtceu:wrought_iron_screw")
+ .itemInputs('2x #forge:plates/obsidian')
+ .itemOutputs("create_sa:large_fueling_tank")
+ .EUt(7)
+ .duration(600)
+
+event.remove({output:"create_sa:small_fueling_tank"})
+event.remove({output:"create_sa:medium_fueling_tank"})
+event.remove({output:"create_sa:large_fueling_tank"})
+
+//Nightvision
+event.recipes.gtceu.primitiveassembler("nightvision")
+ .itemInputs("create:goggles")
+ .itemInputs("2x minecraft:glass")
+ .itemInputs("2x gtceu:vacuum_tube")
+ .itemInputs("4x gtceu:rubber_ring")
+ .itemInputs("gtceu:lv_lithium_battery")
+ .itemOutputs("gtceu:nightvision_goggles")
+ .EUt(7)
+ .duration(600)
+
+event.recipes.gtceu.assembler("nightvision2")
+ .itemInputs("create:goggles")
+ .itemInputs("2x minecraft:glass")
+ .itemInputs("2x gtceu:vacuum_tube")
+ .itemInputs("4x gtceu:rubber_ring")
+ .itemInputs("gtceu:lv_lithium_battery")
+ .itemOutputs("gtceu:nightvision_goggles")
+ .EUt(30)
+ .duration(300)
+
+event.recipes.gtceu.primitiveassembler("curionightvision")
+ .itemInputs("gtceu:nightvision_goggles")
+ .itemInputs("gtceu:lv_field_generator")
+ .itemInputs("2x enigmaticlegacy:earth_heart")
+ .itemInputs('4x gtceu:damascus_steel_screw')
+ .itemOutputs("artifacts:night_vision_goggles")
+ .EUt(7)
+ .duration(600)
+
+event.recipes.gtceu.assembler("curionightvision2")
+ .itemInputs("gtceu:nightvision_goggles")
+ .itemInputs("gtceu:lv_field_generator")
+ .itemInputs("2x enigmaticlegacy:earth_heart")
+ .itemInputs('4x gtceu:damascus_steel_screw')
+ .itemOutputs("artifacts:night_vision_goggles")
+ .EUt(30)
+ .duration(300)
+
+event.remove({output:"gtceu:nightvision_goggles"})
+
+//Alternator
+event.recipes.gtceu.primitiveassembler("Altenator")
+ .itemInputs("2x create:shaft")
+ .itemInputs("8x gtceu:copper_single_wire")
+ .itemInputs("2x #gtceu:resistors")
+ .itemInputs("4x gtceu:wrought_iron_plate")
+ .itemInputs("8x create:andesite_alloy")
+ .itemOutputs("createaddition:alternator")
+ .EUt(8)
+ .duration(400)
+
+event.recipes.gtceu.assembler("Altenator2")
+ .itemInputs("2x create:shaft")
+ .itemInputs("8x gtceu:copper_single_wire")
+ .itemInputs("2x #gtceu:resistors")
+ .itemInputs("4x gtceu:wrought_iron_plate")
+ .itemInputs("8x create:andesite_alloy")
+ .itemOutputs("createaddition:alternator")
+ .EUt(30)
+ .duration(200)
+
+event.remove({output:"createaddition:alternator"})
+
+//ElectricMotor
+event.recipes.gtceu.primitiveassembler("ElectricMotor")
+ .itemInputs("2x create:shaft")
+ .itemInputs("8x gtceu:double_brass_plate")
+ .itemInputs("8x gtceu:copper_single_wire")
+ .itemOutputs("createaddition:electric_motor")
+ .EUt(8)
+ .duration(400)
+
+event.recipes.gtceu.assembler("ElectricMotor2")
+ .itemInputs("2x create:shaft")
+ .itemInputs("8x gtceu:double_brass_plate")
+ .itemInputs("8x gtceu:copper_single_wire")
+ .itemOutputs("createaddition:electric_motor")
+ .EUt(30)
+ .duration(200)
+
+event.remove({output:"createaddition:electric_motor"})
+
+})
+
+//gtceu:tin
